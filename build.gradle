@@ -76,8 +76,8 @@ publishing {
 
     repositories {
         maven {
-            name = "NGTest"
-            url = "https://ngmaven.wascar.dev/releases"
+            name = "NG Maven"
+            url = "https://maven.nationslglory.fr/releases"
             credentials {
                 username = mavenUser
                 password = mavenPassword
