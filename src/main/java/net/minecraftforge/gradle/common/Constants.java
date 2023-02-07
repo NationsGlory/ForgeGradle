@@ -60,12 +60,17 @@ public class Constants
     public static final Closure<Boolean> CALL_FALSE = new Closure<Boolean>(null){ public Boolean call(Object o){ return false; }};
 
     // urls
-    public static final String MC_JAR_URL       = "https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.jar";
-    public static final String MC_SERVER_URL    = "https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/minecraft_server.{MC_VERSION}.jar";
-    public static final String MCP_URL          = "https://files.minecraftforge.net/fernflower_temporary.zip";
-    public static final String ASSETS_URL       = "http://resources.download.minecraft.net";
-    public static final String LIBRARY_URL      = "https://maven.nationsglory.fr/releases/";
-    public static final String ASSETS_INDEX_URL = "https://s3.amazonaws.com/Minecraft.Download/indexes/{ASSET_INDEX}.json";
+    public static final String MC_JAR_URL = "https://maven.nationsglory.fr/files/client.jar";
+
+    public static final String MC_SERVER_URL = "https://maven.nationsglory.fr/files/server.jar";
+
+    public static final String MCP_URL = "https://maven.nationsglory.fr/files/fernflower_temporary.zip";
+
+    public static final String ASSETS_URL = "https://maven.nationsglory.fr/resources/";
+
+    public static final String LIBRARY_URL = "https://maven.nationsglory.fr/releases/";
+
+    public static final String ASSETS_INDEX_URL = "https://maven.nationsglory.fr/files/assets.json";
 
     public static final String LOG              = ".gradle/gradle.log";
     public static final String ASSETS_INDEX     =  "legacy";

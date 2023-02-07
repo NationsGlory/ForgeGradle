@@ -7,7 +7,7 @@
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ *     https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing,
  * software distributed under the License is distributed on an
@@ -25,7 +25,7 @@ import net.minecraftforge.gradle.StringUtils;
  * PathMatcher implementation for Ant-style path patterns. Examples are provided below.
  * </p>
  * <p>
- * Part of this mapping code has been kindly borrowed from <a href="http://ant.apache.org">Apache Ant</a>.
+ * Part of this mapping code has been kindly borrowed from <a href="https://ant.apache.org">Apache Ant</a>.
  * <p>
  * The mapping matches URLs using the following rules:<br>
  * <ul>
@@ -43,7 +43,7 @@ import net.minecraftforge.gradle.StringUtils;
  * <li><code>org/&#42;&#42;/servlet/bla.jsp</code> - matches <code>org/apache/shiro/servlet/bla.jsp</code> but also <code>org/apache/shiro/testing/servlet/bla.jsp</code> and <code>org/servlet/bla.jsp</code></li>
  * </ul>
  * <p>
- * <b>N.B.</b>: This class was borrowed (with much appreciation) from the <a href="http://www.springframework.org">Spring Framework</a> with modifications. We didn't want to reinvent the wheel of great work they've done, but also didn't want to force every Shiro user to depend on Spring
+ * <b>N.B.</b>: This class was borrowed (with much appreciation) from the <a href="https://www.springframework.org">Spring Framework</a> with modifications. We didn't want to reinvent the wheel of great work they've done, but also didn't want to force every Shiro user to depend on Spring
  * </p>
  * <p>
  * As per the Apache 2.0 license, the original copyright notice and all author and copyright information have remained in tact.

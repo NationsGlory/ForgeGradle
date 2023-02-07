@@ -5,7 +5,7 @@ apply plugin: 'maven'
 apply plugin: 'maven-publish'
 
 group = 'net.minecraftforge.gradle'
-version = '1.0-NGWascar'
+version = '1.0-NGWascar-rev3'
 archivesBaseName = 'ForgeGradle'
 targetCompatibility = '1.6'
 sourceCompatibility = '1.6'

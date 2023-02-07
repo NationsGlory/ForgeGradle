@@ -499,7 +499,7 @@ public abstract class UserBasePlugin extends BasePlugin<UserExtension>
                     transformer.setOutputProperty(OutputKeys.METHOD, "xml");
                     transformer.setOutputProperty(OutputKeys.INDENT, "yes");
                     transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
-                    transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
+                    transformer.setOutputProperty("{https://xml.apache.org/xslt}indent-amount", "4");
 
                     DOMSource source = new DOMSource(doc);
                     StreamResult result = new StreamResult(file);
